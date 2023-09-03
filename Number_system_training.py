@@ -45,15 +45,15 @@ def Training(mode):
     
     match mode:
         case '1':
-            a =  Number_to_base(int(a), int(new_base))
+            aq =  Number_to_base(int(a), int(new_base))
             print()
             print('Переведите число ', a, ' из 10 в ', new_base, ' систему счисления :')
             print('(алфавит состоит из английских заглавных символов, следите за пробелами)')
             x = input()
-            if(x==a):
+            if(x==aq):
                 print('great')
             else:
-                print('Правильный ответ: ', a)
+                print('Правильный ответ: ', aq)
         case '2':
             print()
             print('Переведите число ', Number_to_base(int(a), int(new_base)),' из ', new_base, ' системы счисления в 10:')
